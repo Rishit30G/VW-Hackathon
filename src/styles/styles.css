@@ -1,3 +1,26 @@
+/* //all h tags to be black  */
+
+h3, h4, h5, h6, h1, h2, p{
+    color: black;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  /* //change the icon color to black  */
+  filter: invert(100%); 
+}
+
+.main-content {
+  padding-bottom: 50px; /* Adjust this value based on the actual height of your footer */
+
+}
+
+/* Ensure the footer has a consistent height */
+.navbar.fixed-bottom {
+  height: 50px; /* Adjust this value based on your design */
+
+}
+
 @keyframes zoom {
     0%, 100% {
       transform: scale(1);

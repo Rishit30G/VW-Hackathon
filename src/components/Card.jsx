@@ -1,16 +1,19 @@
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function BasicCardExample({ title, text, link}) {
+function BasicCardExample({ title, text, imgPath, link}) {
   return (
     <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src="https://picsum.photos/300/300" />
+      <Card.Img variant="top" src={imgPath} height="290px"/>
       <Card.Body>
-        <h3>{title}</h3>
-        <Card.Text>
+        <h4>{title}</h4>
+        <h6 className='text-muted'>
             {text}
-        </Card.Text>
-        <Button variant="primary" href={link}>LinkedIn</Button>
+        </h6>
+        <Container className="d-flex justify-content-end">
+        <Button variant="outline-primary mt-3" href={link}>LinkedIn</Button>
+        </Container>
       </Card.Body>
     </Card>
   );
