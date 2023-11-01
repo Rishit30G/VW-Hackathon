@@ -6,7 +6,7 @@ const Demo = () => {
   return (
     <>
       <Container className="mt-5">
-        <h1> Demo </h1>
+        <h1 className="display-6"> Demo </h1>
       </Container>
       <CarScreen />
     </>
