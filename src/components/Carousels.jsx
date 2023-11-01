@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import '../styles/styles.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function ExampleCarouselImage({ text, src }) {
   return (
@@ -15,8 +17,14 @@ function ExampleCarouselImage({ text, src }) {
     />
   );
 }
+ 
 
 function ControlledCarousel() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/about');
+  };
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -47,7 +55,9 @@ function ControlledCarousel() {
     <div>
       <h3>Learn it through a </h3>
       <h3>personalized system!</h3>
-      <Button variant="primary" size="lg" className="mt-3" href='/about'>Get Started</Button>
+      <Button variant="primary" size="lg" className="mt-3" onClick={handleClick}>
+        Get Started
+      </Button>
     </div>
   </div>
 </Carousel.Item>
