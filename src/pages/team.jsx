@@ -24,6 +24,7 @@ const Team = () => {
           <BasicCardExample
             title="Shubham Chandel"
             text="Incoming SDE Intern at Bharat Pe"
+            imgPath="https://i.postimg.cc/MHKMBZsr/Screenshot-2023-11-01-082836.png"
             link="https://www.linkedin.com/in/shubham-chandel-3071aa202/"
           />
         </Col>
@@ -39,7 +40,7 @@ const Team = () => {
           <BasicCardExample
             title="Rishit Gupta"
             text="Incoming SDE Intern at rtCamp"
-            imgPath="https://i.postimg.cc/1XP9SPvM/Screenshot-2023-10-20-152323.png"
+            imgPath="https://i.postimg.cc/3RWQ0PXF/Screenshot-2023-11-01-083402.png"
             link="https://www.linkedin.com/in/rishit-gupta-4b18841b1/"
           />
         </Col>

@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 function BasicCardExample({ title, text, imgPath, link}) {
   return (
     <Card style={{ width: '20rem' }}>
-      <Card.Img variant="top" src={imgPath} height="290px"/>
+      <Card.Img variant="top" src={imgPath} height="350px"/>
       <Card.Body>
         <h4>{title}</h4>
         <h6 className='text-muted'>

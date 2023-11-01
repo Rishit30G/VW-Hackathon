@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,7 +16,8 @@ const TopBar = () => {
           <Nav.Link as={Link} to="/home">Home</Nav.Link>
           <Nav.Link as={Link} to="/about">About</Nav.Link>
           <Nav.Link as={Link} to="/demo">Demo</Nav.Link>
-          <Nav.Link as={Link} to="/team">Team</Nav.Link>
+          <Nav.Link as={Link} to="/team" className=''>Team
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

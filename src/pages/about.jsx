@@ -1,7 +1,15 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/demo');
+  };
+
   return (
     <div>
       <Container className="mt-5">
@@ -63,7 +71,9 @@ const About = () => {
       </Container>
 
       <Container className='text-center mt-5'>
-        <Button variant="primary" size="lg" className="mt-3" href='/demo'>Chekout the demo</Button>
+        <Button variant="primary" size="lg" className="mt-3" onClick={handleClick}>
+           Chekout the demo
+        </Button>
     </Container>
     </div>
 
