@@ -55,23 +55,30 @@ const About = () => {
 
       <Container className="mt-5">
         <h1 className="display-6">Our Vision</h1>
-        <p>
+        <ul>
+        <li>
           Our vision is to revolutionize driver education in India, fostering a
           safer, more informed driving community. We aim to leverage
           cutting-edge technology to provide accessible, personalized, and
           comprehensive driving lessons directly through the car's infotainment
-          system. By simulating real-world Indian road conditions and traffic
+          system. 
+        </li>
+        <li>
+          By simulating real-world Indian road conditions and traffic
           scenarios, we aspire to prepare learners for the complexities of
           on-road driving, enhancing their confidence and competence. We are
           committed to reducing road accidents and promoting responsible driving
-          habits through continuous learning and instant feedback. Our
-          application will serve as a catalyst for change, setting new standards
+          habits through continuous learning and instant feedback. 
+        </li>
+        <li>
+        Our application will serve as a catalyst for change, setting new standards
           in driver education, and contributing to safer roads across India.
-        </p>
+        </li>
+        </ul>
       </Container>
 
       <Container className='text-center mt-5'>
-        <Button variant="primary" size="lg" className="mt-3" onClick={handleClick}>
+        <Button variant="outline-dark" size="lg" className="mt-3" onClick={handleClick}>
            Chekout the demo
         </Button>
     </Container>

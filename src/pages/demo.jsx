@@ -7,6 +7,9 @@ const Demo = () => {
     <>
       <Container className="mt-5">
         <h1 className="display-6"> Demo </h1>
+        <p className="text-muted">
+        This demo showcases the car's infotainment screen capabilities, with upcoming features including interactive elements and talkback for enhanced accessibility.
+        </p>
       </Container>
       <CarScreen />
     </>

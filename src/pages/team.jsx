@@ -7,7 +7,10 @@ const Team = () => {
       <Container className="my-5">
         <h1 className="display-5">Our Team</h1>
         <p>
-        Our dynamic team consists of talented <b>computer science undergraduates</b> who have recently <b>secured positions with prestigious multinational companies and innovative startups </b>. With a solid foundation in technology and a passion for driving innovation, we bring a wealth of knowledge and fresh perspectives to the table. Our expertise spans various domains, enabling us to delve deep into brainstorming and ideation sessions, ensuring the development of a robust and user-centric driving learning application. We are driven by a shared vision of transforming driver education in India, committed to leveraging our skills and experiences to make a meaningful impact.
+        Our dynamic team consists of talented <b>computer science undergraduates</b> who have recently <b>secured positions with prestigious multinational companies and innovative startups </b>. With a solid foundation in technology and a passion for driving innovation, we bring a wealth of knowledge and fresh perspectives to the table. 
+    </p>
+    <p>
+    Our expertise spans various domains, enabling us to delve deep into brainstorming and ideation sessions, ensuring the development of a robust and user-centric driving learning application. We are driven by a shared vision of transforming driver education in India, committed to leveraging our skills and experiences to make a meaningful impact.
     </p>
       </Container>
       <Container className="mt-4">
@@ -15,7 +18,7 @@ const Team = () => {
         <Col>
           <BasicCardExample
             title="Piyush Jena"
-            text="Incoming SDE at Tradence Analytics"
+            text="Incoming Analyst at Tradence Analytics"
             imgPath="https://i.postimg.cc/kMt8Xyfb/1645034797116.jpg"
             link="https://www.linkedin.com/in/piyush-jena-0799511b8/"
           />
