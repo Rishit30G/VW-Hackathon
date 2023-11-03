@@ -21,7 +21,7 @@ function App() {
           <Route path="/team" element={<Team/>} />
         </Routes>
         <div className="main-content">
-        <Footer />
+        {/* <Footer /> */}
         </div> 
       </Router>
     </>

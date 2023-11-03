@@ -33,31 +33,31 @@ function ControlledCarousel() {
 
   return (
     <Container className='mt-5'>
-      <Carousel className="mx-auto" style={{ maxWidth: '700px' }} activeIndex={index} onSelect={handleSelect}>
+      <Carousel className="mx-auto" style={{ maxWidth: '1000px' }} activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item className="text-center">
-  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/L4zsqZS5/Screenshot-2023-10-31-072457.png" />
+  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/5tcG9100/free-video-3045163.jpg" />
   <div className="carousel-caption d-flex align-items-center justify-content-center" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
-      <h3>Want to learn driving ?</h3>
+      <h3 style={{color: 'white'}}>Want to learn driving ?</h3>
   </div>
 </Carousel.Item>
 <Carousel.Item className="text-center">
-  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/L4zsqZS5/Screenshot-2023-10-31-072457.png" />
+  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/5tcG9100/free-video-3045163.jpg" />
   <div className="carousel-caption d-flex align-items-center justify-content-center" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
     <div>
-       <h3>Have an infortainment </h3>
-       <h3>system in car ?</h3>
+       <h3 style={{color: 'white'}}>Have an infortainment </h3>
+       <h3 style={{color: 'white'}}>system in car ?</h3>
     </div>
   </div>
 </Carousel.Item>
 <Carousel.Item className="text-center">
-  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/L4zsqZS5/Screenshot-2023-10-31-072457.png" />
+  <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/5tcG9100/free-video-3045163.jpg" />
   <div className="carousel-caption d-flex align-items-center justify-content-center" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
     <div>
-      <h3>Learn it through a </h3>
-      <h3>personalized system!</h3>
-      <Button variant="primary" size="lg" className="mt-3" onClick={handleClick}>
-        Get Started
-      </Button>
+        <h3 style={{color: 'white'}}>Steer Your Progress,</h3>
+        <h3 style={{color: 'white'}}>On your terms.</h3>
+        <Button variant="outline-light" size="md" className="mt-3" onClick={handleClick}>
+          Learn More
+        </Button>
     </div>
   </div>
 </Carousel.Item>

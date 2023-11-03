@@ -1,0 +1,25 @@
+  {/* <ul>
+          <li>
+            <b>Accessibility</b>: Learners can practice and learn at their own
+            pace, anytime, and anywhere, directly from their car.
+          </li>
+          <li>
+            <b>Personalization</b>: AI-driven adaptive learning ensures that the
+            content is tailored to the individual’s learning curve, enhancing
+            retention and understanding.
+          </li>
+          <li>
+            <b>Real-Time Feedback</b>: Instant feedback on driving decisions
+            helps in correcting mistakes on the spot, promoting safer driving
+            practices.
+          </li>
+          <li>
+            <b>Scenario-Based Training</b>: Exposure to various traffic
+            scenarios, including challenging Indian road conditions, ensures
+            comprehensive training.
+          </li>
+          <li>
+            <b>Cost-Effective:</b> Reduces the need for extensive on-road
+            driving lessons, saving time and money for the learner.
+          </li>
+        </ul> */}

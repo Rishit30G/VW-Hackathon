@@ -4,21 +4,21 @@ import BasicCardExample from "../components/Card";
 const Team = () => {
   return (
     <>
-      <Container className="my-5">
-        <h1 className="display-5">Our Team</h1>
-        <p>
-        Our dynamic team consists of talented <b>computer science undergraduates</b> who have recently <b>secured positions with prestigious multinational companies and innovative startups </b>. With a solid foundation in technology and a passion for driving innovation, we bring a wealth of knowledge and fresh perspectives to the table. 
-    </p>
-    <p>
-    Our expertise spans various domains, enabling us to delve deep into brainstorming and ideation sessions, ensuring the development of a robust and user-centric driving learning application. We are driven by a shared vision of transforming driver education in India, committed to leveraging our skills and experiences to make a meaningful impact.
-    </p>
+    <Container fluid>
+      <img src="https://picsum.photos/1880/300"/>
+    </Container>
+<Container className="my-5">
+        <h1 className="display-3"> <b>Our Team</b></h1>
+        <h4 className="fw-light mt-3">
+          Our dynamic team consists of talented computer science undergraduates who have recently secured positions with prestigious multinational companies and innovative startups. With a solid foundation in technology and a passion for driving innovation, we bring a wealth of knowledge and fresh perspectives to the table. 
+        </h4>
       </Container>
       <Container className="mt-4">
-      <Row xs={1} md={2} lg={4} className="g-4">
+      <Row xs={1} sm={2} md={2} lg={4} className="g-4">
         <Col>
           <BasicCardExample
             title="Piyush Jena"
-            text="Incoming Analyst at Tradence Analytics"
+            text="Incoming Analyst at Tradence"
             imgPath="https://i.postimg.cc/kMt8Xyfb/1645034797116.jpg"
             link="https://www.linkedin.com/in/piyush-jena-0799511b8/"
           />
@@ -27,7 +27,7 @@ const Team = () => {
           <BasicCardExample
             title="Shubham Chandel"
             text="Incoming SDE Intern at Bharat Pe"
-            imgPath="https://i.postimg.cc/MHKMBZsr/Screenshot-2023-11-01-082836.png"
+            imgPath="https://i.postimg.cc/mgxPGbJk/Screenshot-2023-11-03-115138.png"
             link="https://www.linkedin.com/in/shubham-chandel-3071aa202/"
           />
         </Col>
@@ -43,7 +43,7 @@ const Team = () => {
           <BasicCardExample
             title="Rishit Gupta"
             text="Incoming SDE Intern at rtCamp"
-            imgPath="https://i.postimg.cc/3RWQ0PXF/Screenshot-2023-11-01-083402.png"
+            imgPath="https://i.postimg.cc/nh6gkWX6/Screenshot-2023-11-03-115535.png"
             link="https://www.linkedin.com/in/rishit-gupta-4b18841b1/"
           />
         </Col>

@@ -24,18 +24,17 @@ function CarScreen() {
     'Adjust the seat so that your feet comfortably reach both pedals.',
     "Adjust your car's mirrors so that you can see through them clearly and effectively.",
     'Get familiar with the pedals',
-   
     'Know where the parking brake is and what it does.', 
     'Get a feel of the gear stick',
     'Understand the basic dashboard controls/symbols.' ,
     'Put on your seatbelt', 
-    'Always start your car with your foot on the brake.',
+    'Turn on the engine and release the parking brake,',
     "Learn how to back your car out.",
-    'Back out your car from the parking space.', 
     "When you're ready to move your car forwards, come to a complete stop and put the car into 'Drive'.", 
     "Hold both hands on the steering wheel at the 9 and 3 o'clock position", 
-    "Learn how to turn the car using the hand over hand method.", 
     "Use your blinkers", 
+    "Turn the car using the hand over hand method.", 
+    "Use your blinkers while turning", 
     "Adhere to the speed limit.",
   ];
 
@@ -148,10 +147,30 @@ function CarScreen() {
           </div>
         </Carousel.Item>
         <Carousel.Item interval={null}>
-          <ExampleCarouselImage
-            text="First slide"
-            src="https://www.wikihow.com/images/thumb/e/eb/Drive-Smoothly-with-a-Manual-Transmission-Step-2.jpg/v4-460px-Drive-Smoothly-with-a-Manual-Transmission-Step-2.jpg"
-          />
+        <div
+            style={{
+              width: "100%",
+              height: "0",
+              paddingBottom: "56.25%",
+              position: "relative",
+            }}
+          >
+            <video
+              style={{ width: "100%", height: "100%", position: "absolute" }}
+              autoPlay
+              muted
+              loop
+            >
+              <source
+                src="https://www.wikihow.com/video/3/3e/Drive%20a%20Car%20Step%209.360p.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+
+
            <div className="mt-5">
           <h4 className="text-center mt-3">
             {descriptions[activeIndex]}

@@ -1,6 +1,10 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import Card from 'react-bootstrap/Card';
+import { Money, Timer, User, UsersThree } from "@phosphor-icons/react";
+import { Row, Col } from "react-bootstrap";
+import AboutCard from "../components/AboutCard";
 
 const About = () => {
 
@@ -12,74 +16,72 @@ const About = () => {
 
   return (
     <div>
+        <Container fluid> 
+          <img src="https://picsum.photos/1880/300"/>
+        </Container>
+        <Container className="mt-5">
+          <h1 className="display-5"> <b>Our Vision 🔭</b> </h1>
+        </Container>
+        <Container className="mt-3 p-3" style={{ borderLeft: '5px solid orange', position: 'relative' }}>
+    <h5 className="text-muted fst-italic">
+        This project is dedicated to transforming the journey of learning to drive into a seamless and enjoyable experience for users. 🚀
+    </h5>
+</Container>
+
       <Container className="mt-5">
-        <h1 className="my-3 display-6">Project Idea</h1>
-        <p>
+        <h1 className="my-3 display-5"> <b>Project Idea 🗺️</b></h1>
+        <ul>
+        <li>
+          <h5 className="fw-normal">
           In India, where road traffic conditions are complex and diverse, there
-          is a pressing need for innovative and accessible driver education. Our
+          is a pressing need for innovative and accessible driver education. 
+          </h5>
+        </li>
+        <li>
+        <h5 className="fw-normal">
+        Our
           application aims to address this by providing an interactive learning
-          experience directly through the car's infotainment screen. Utilizing
+          experience directly through the car's infotainment screen.
+        </h5> 
+        </li>
+        <li>
+        <h5 className="fw-normal">
+          Utilizing
           AI and machine learning, the application offers personalized lessons,
           real-time feedback, and scenario-based training, ensuring that
-          learners are well-prepared for on-road driving. The application's
+          learners are well-prepared for on-road driving. 
+          </h5>
+        </li>
+        <li> 
+        <h5 className="fw-normal">
+        The application's
           content is tailored to Indian road conditions, traffic norms, and
           driving etiquette, making it highly relevant and effective.
-        </p>
-        <h4 className="my-3 text-muted">Advantages of the system</h4>
-        <ul>
-          <li>
-            <b>Accessibility</b>: Learners can practice and learn at their own
-            pace, anytime, and anywhere, directly from their car.
-          </li>
-          <li>
-            <b>Personalization</b>: AI-driven adaptive learning ensures that the
-            content is tailored to the individual’s learning curve, enhancing
-            retention and understanding.
-          </li>
-          <li>
-            <b>Real-Time Feedback</b>: Instant feedback on driving decisions
-            helps in correcting mistakes on the spot, promoting safer driving
-            practices.
-          </li>
-          <li>
-            <b>Scenario-Based Training</b>: Exposure to various traffic
-            scenarios, including challenging Indian road conditions, ensures
-            comprehensive training.
-          </li>
-          <li>
-            <b>Cost-Effective:</b> Reduces the need for extensive on-road
-            driving lessons, saving time and money for the learner.
-          </li>
+        </h5> 
+        </li>
         </ul>
       </Container>
 
       <Container className="mt-5">
-        <h1 className="display-6">Our Vision</h1>
-        <ul>
-        <li>
-          Our vision is to revolutionize driver education in India, fostering a
-          safer, more informed driving community. We aim to leverage
-          cutting-edge technology to provide accessible, personalized, and
-          comprehensive driving lessons directly through the car's infotainment
-          system. 
-        </li>
-        <li>
-          By simulating real-world Indian road conditions and traffic
-          scenarios, we aspire to prepare learners for the complexities of
-          on-road driving, enhancing their confidence and competence. We are
-          committed to reducing road accidents and promoting responsible driving
-          habits through continuous learning and instant feedback. 
-        </li>
-        <li>
-        Our application will serve as a catalyst for change, setting new standards
-          in driver education, and contributing to safer roads across India.
-        </li>
-        </ul>
+      <h1 className="my-3 display-5"> <b>USP🤳🏻</b> </h1>
+      <Row className="justify-content-center align-items-center g-4" xs={1} sm={2} md={2} lg={4} xl={4}>
+        <Col>
+          <AboutCard heading="Accessibility" text="Easily accessible to individuals with cars" Icon={UsersThree} color="#017ADF"/>
+        </Col>
+        <Col>
+          <AboutCard heading="Cost Effective" text="Avoid spending hefty bucks in driving schools" Icon={Money} color="#1CD000"/>
+        </Col>
+        <Col>
+          <AboutCard heading="Time Saving" text="Saves travelling time and is convinient" Icon={Timer} color="red"/>
+        </Col>
+        <Col>
+          <AboutCard heading="Personalization" text="Curated to individual's learning curve" Icon={User} color="orange"/>
+        </Col>
+      </Row>
       </Container>
-
       <Container className='text-center mt-5'>
-        <Button variant="outline-dark" size="lg" className="mt-3" onClick={handleClick}>
-           Chekout the demo
+        <Button variant="dark" size="lg" className="mt-3" onClick={handleClick}>
+           Chekout the demo 🪧
         </Button>
     </Container>
     </div>

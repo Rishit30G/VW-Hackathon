@@ -4,10 +4,10 @@ h3, h4, h5, h6, h1, h2, p{
     color: black;
 }
 
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  /* //change the icon color to black  */
-  filter: invert(100%); 
+.black-background {
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white for visibility */
+  min-height: 100vh; /* Make sure it covers the whole viewport height */
 }
 
 .main-content {

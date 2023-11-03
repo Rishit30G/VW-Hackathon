@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const TopBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" >
     <Container>
       <Navbar.Brand as={Link} to="/home">i.mobilothon 3.0</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
