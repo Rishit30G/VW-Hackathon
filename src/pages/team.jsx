@@ -1,11 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import BasicCardExample from "../components/Card";
+import { Image } from "react-bootstrap";
 
 const Team = () => {
   return (
     <>
-    <Container fluid>
-      <img src="https://picsum.photos/1880/300"/>
+    <Container fluid >
+      <Image src="https://picsum.photos/2000/300" fluid/>
     </Container>
 <Container className="my-5">
         <h1 className="display-3"> <b>Our Team</b></h1>

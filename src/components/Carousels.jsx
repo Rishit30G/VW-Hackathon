@@ -44,7 +44,7 @@ function ControlledCarousel() {
   <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/5tcG9100/free-video-3045163.jpg" />
   <div className="carousel-caption d-flex align-items-center justify-content-center" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
     <div>
-       <h3 style={{color: 'white'}}>Have an infortainment </h3>
+       <h3 style={{color: 'white'}}>Have an infotainment </h3>
        <h3 style={{color: 'white'}}>system in car ?</h3>
     </div>
   </div>
@@ -53,10 +53,10 @@ function ControlledCarousel() {
   <ExampleCarouselImage text="First slide" src="https://i.postimg.cc/5tcG9100/free-video-3045163.jpg" />
   <div className="carousel-caption d-flex align-items-center justify-content-center" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
     <div>
-        <h3 style={{color: 'white'}}>Steer Your Progress,</h3>
-        <h3 style={{color: 'white'}}>On your terms.</h3>
+        <h3 style={{color: 'white'}}>Then you are at right place!</h3>
+        <h3 style={{color: 'white'}}>To steer your progress..</h3>
         <Button variant="outline-light" size="md" className="mt-3" onClick={handleClick}>
-          Learn More
+         Click Here
         </Button>
     </div>
   </div>
