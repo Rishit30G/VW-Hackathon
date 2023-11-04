@@ -19,7 +19,7 @@ const Team = () => {
         <Col>
           <BasicCardExample
             title="Piyush Jena"
-            text="Incoming Analyst at Tradence"
+            text="Incoming Analyst at Tredence"
             imgPath="https://i.postimg.cc/kMt8Xyfb/1645034797116.jpg"
             link="https://www.linkedin.com/in/piyush-jena-0799511b8/"
           />
