@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <>
     <Container fluid >
-      <Image src="https://picsum.photos/2000/300" fluid/>
+      <Image src="https://picsum.photos/2500/300" fluid/>
     </Container>
 <Container className="my-5">
         <h1 className="display-3"> <b>Our Team</b></h1>

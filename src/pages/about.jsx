@@ -18,7 +18,7 @@ const About = () => {
   return (
     <div>
      <Container fluid >
-      <Image src="https://picsum.photos/2000/300" fluid/>
+      <Image src="https://picsum.photos/2500/300" fluid/>
     </Container>
         <Container className="mt-5">
           <h1 className="display-5"> <b>Our Vision 🔭</b> </h1>
